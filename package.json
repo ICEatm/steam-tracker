@@ -1,0 +1,30 @@
+{
+  "name": "steam-tracker",
+  "version": "1.0.0",
+  "description": "Steam Account Tracker with Discord-Webhook integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darby-dev/steam-tracker.git"
+  },
+  "keywords": [
+    "steam",
+    "tracker",
+    "webhook",
+    "discord"
+  ],
+  "author": "darby-dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darby-dev/steam-tracker/issues"
+  },
+  "homepage": "https://github.com/darby-dev/steam-tracker#readme",
+  "dependencies": {
+    "discord-webhook-node": "^1.1.8",
+    "nedb": "^1.8.0",
+    "request": "^2.88.2"
+  }
+}
